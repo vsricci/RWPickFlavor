@@ -1,0 +1,6 @@
+module Pods_RWPickFlavorTests {
+  umbrella header "Pods-RWPickFlavorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
