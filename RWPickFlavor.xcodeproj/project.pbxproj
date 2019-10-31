@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		18A4303677E508F67E775381 /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F324DD60064ADB7346AF70BA /* libPods-RWPickFlavor.a */; };
+		18A432C8236A854B0034CDFA /* TestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A432C7236A854B0034CDFA /* TestsViewController.swift */; };
+		18A432CC236A85C00034CDFA /* TestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A432CB236A85C00034CDFA /* TestProtocol.swift */; };
+		18A432CF236A86320034CDFA /* TestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A432CE236A86320034CDFA /* TestDelegate.swift */; };
 		18A8546A22F3D0E2003166EC /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8546022F3D0E2003166EC /* RWPickFlavor.framework */; };
 		18A8546F22F3D0E2003166EC /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8546E22F3D0E2003166EC /* RWPickFlavorTests.swift */; };
 		18A8547122F3D0E2003166EC /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A8546322F3D0E2003166EC /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A432C7236A854B0034CDFA /* TestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsViewController.swift; sourceTree = "<group>"; };
+		18A432CB236A85C00034CDFA /* TestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProtocol.swift; sourceTree = "<group>"; };
+		18A432CE236A86320034CDFA /* TestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDelegate.swift; sourceTree = "<group>"; };
 		18A8546022F3D0E2003166EC /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A8546322F3D0E2003166EC /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		18A8546422F3D0E2003166EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A432C9236A859A0034CDFA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				18A432CB236A85C00034CDFA /* TestProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		18A432CD236A86080034CDFA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				18A432CE236A86320034CDFA /* TestDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		18A8545622F3D0E2003166EC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +123,8 @@
 		18A8546222F3D0E2003166EC /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				18A432CD236A86080034CDFA /* Delegates */,
+				18A432C9236A859A0034CDFA /* Protocols */,
 				18A8547C22F3D58E003166EC /* Categories */,
 				18A8548022F3D58F003166EC /* Controllers */,
 				18A8547E22F3D58E003166EC /* Models */,
@@ -150,6 +174,7 @@
 			children = (
 				18A8548122F3D58F003166EC /* PickFlavorViewController.swift */,
 				18A8548222F3D58F003166EC /* PickFlavorDataSource.swift */,
+				18A432C7236A854B0034CDFA /* TestsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -349,8 +374,11 @@
 				18A8548D22F3D58F003166EC /* PickFlavorDataSource.swift in Sources */,
 				18A8548B22F3D58F003166EC /* Flavor.swift in Sources */,
 				18A8549122F3D58F003166EC /* IceCreamView.swift in Sources */,
+				18A432CF236A86320034CDFA /* TestDelegate.swift in Sources */,
+				18A432CC236A85C00034CDFA /* TestProtocol.swift in Sources */,
 				18A8548C22F3D58F003166EC /* PickFlavorViewController.swift in Sources */,
 				18A8548E22F3D58F003166EC /* ScoopCell.swift in Sources */,
+				18A432C8236A854B0034CDFA /* TestsViewController.swift in Sources */,
 				18A8548F22F3D58F003166EC /* ScoopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -159,6 +159,24 @@
             </objects>
             <point key="canvasLocation" x="473" y="380"/>
         </scene>
+        <!--Tests View Controller-->
+        <scene sceneID="6Zn-Qm-D2g">
+            <objects>
+                <viewController id="hEV-Es-nyE" customClass="TestsViewController" customModule="RWPickFlavor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kAa-5v-XzY"/>
+                        <viewControllerLayoutGuide type="bottom" id="P8k-7G-v8g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gdz-aZ-3pG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lFl-zp-Wtt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1300" y="445"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ioh-TU-YBK">
             <objects>

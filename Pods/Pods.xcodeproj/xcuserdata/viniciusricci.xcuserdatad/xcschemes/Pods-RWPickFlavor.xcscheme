@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "409B656D8194E8FF6D8CD1343B2B4911"
+               BlueprintIdentifier = "A39EBBAD1E01EE0C535279471D1F25EC"
                BuildableName = "libPods-RWPickFlavor.a"
                BlueprintName = "Pods-RWPickFlavor"
                ReferencedContainer = "container:Pods.xcodeproj">
